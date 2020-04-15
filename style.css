@@ -1,0 +1,107 @@
+body{
+    width:900px;
+    margin:0;
+  }
+  header{
+    background:black;
+    text-align:center;
+    font-size:32px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+  }
+  a:link{
+    color:white;
+    text-decoration:none;
+  }
+  
+  main{
+    display:flex;
+  }
+  article{
+    width:550px;
+    margin-left:10px;
+  }
+  blockquote{
+    width:350px;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+  }
+  #anika{
+    background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+    background-size: 350px 300px;
+    padding-bottom:80px;
+  }
+  #ani{
+    color:#222;
+    font-family: 'Abril Fatface', cursive;
+    font-size:24px;
+    position:relative;
+    left:130px;
+    top:80px;
+  }
+  .intro{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+    margin:30px 0px 0px;
+  }
+  .first{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+    }
+  
+  ul{
+    list-style-type: square;
+  }
+  subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top:700px;
+    padding-top:300px;
+  }
+  
+  .bigger{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:31px;
+    font-weight:bold;
+    margin:none;
+    padding:none;
+  }
+  
+  .italic{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+    margin-top:0px;
+    padding-top:0px;
+  }
+  
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:21px;
+  }
+  .secondlist{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:21px;
+  }
+  blockquote {
+    background: #222;
+    padding: 20px;
+   
+  }
+  blockquote:before {
+    color: white;
+    content: ",,";
+    font-size: 6em;
+    position:relative;
+    top:-40px;
+    
+    
+    
+  }
+  blockquote p {
+    display: inline;
+    color:white;
+    font-size:4em;
+    font-family: 'Abril Fatface', cursive;
+  }
